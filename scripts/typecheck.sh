@@ -1,1 +1,0 @@
-./node_modules/typescript/bin/tsc --noEmit --esModuleInterop --target esnext --moduleResolution node --module commonjs --types @rbxts/types src/*.d.ts

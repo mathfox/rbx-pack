@@ -13,6 +13,8 @@ end
 
 --[[
     Returns first value (success), and packs all following values.
+
+    This function will not throw an error in case the `success` argument was not a boolean at the runtime.
 ]]
 local function packResult(success: boolean, ...): (boolean, number, { unknown })
 	return success, select("#", ...), { ... }
