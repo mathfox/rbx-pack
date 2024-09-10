@@ -15,7 +15,7 @@
 		"serve:tests": "rojo serve tests.project.json",
 		"test": "bun run build:tests && bun run patch-include && rojo build tests.project.json --output tests/tests-place.rbxl && run-in-roblox --script tests/run-tests.luau --place tests/tests-place.rbxl"
 	},
-	"keywords": ["roblox", "roblox-ts", "immut", "immutability", "data"],
+	"keywords": ["roblox", "roblox-ts", "pack", "tuple", "helpers"],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/mathfox/rbx-pack.git"
