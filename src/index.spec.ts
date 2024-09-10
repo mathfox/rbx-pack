@@ -62,14 +62,7 @@ describe("packResult", () => {
 		expect(length).toBe(3);
 		expect(values).toEqual([1, undefined, 2]);
 
-		const [success_1, length_1, values_1] = packResult(
-			true,
-			undefined,
-			1,
-			undefined,
-			2,
-			undefined,
-		);
+		const [success_1, length_1, values_1] = packResult(true, undefined, 1, undefined, 2, undefined);
 
 		expect(success_1).toBe(true);
 		expect(length_1).toBe(5);

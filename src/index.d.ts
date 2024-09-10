@@ -6,9 +6,7 @@ export function pack<TValue>(value: TValue): LuaTuple<[number, [TValue]]>;
  * Used to cajole varargs without dropping sparse values.
  */
 // biome-ignore lint/suspicious/noExplicitAny: <explanation>
-export function pack<TValues extends ReadonlyArray<any>>(
-	...values: TValues
-): LuaTuple<[number, TValues]>;
+export function pack<TValues extends ReadonlyArray<any>>(...values: TValues): LuaTuple<[number, TValues]>;
 
 /**
  * Returns first value (success), and packs all following values.
