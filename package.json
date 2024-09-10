@@ -1,7 +1,7 @@
 {
 	"name": "@rbxts/pack",
 	"version": "0.0.1",
-	"description": "Simple utility functions for Luau tuples.",
+	"description": "Simple utility functions for Luau tuples",
 	"main": "out/init.lua",
 	"types": "out/index.d.ts",
 	"files": ["out", "!out/jest.config.*", "!out/**/*.spec.d.ts"],
